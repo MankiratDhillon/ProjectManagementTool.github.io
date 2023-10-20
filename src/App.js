@@ -344,7 +344,7 @@ expandCard(index) {
                             <br />
                             <FormControl
                                 type="text"
-                                placeholder="Task Story"
+                                placeholder="Task Description"
                                 value={this.state.taskStory}
                                 onChange={(item) =>
                                     this.updateTaskStory(item.target.value)
@@ -354,7 +354,7 @@ expandCard(index) {
                             <FormControl
                                 type="number"
                                 pattern="[0-9]*"
-                                placeholder="Task Estimation"
+                                placeholder="Task Difficulty Estimation"
                                 value={this.state.taskEstimation}
                                 onChange={(item) =>
                                     this.updateTaskEstimation(item.target.value)
